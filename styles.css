@@ -1,12 +1,18 @@
-body {
-	background-color: black;
-}
-
-h1 {
-	color: white;
+#container {
 	text-align: center;
 }
 
-p {
-	color: white;
+.catalog {
+	display: inline-block;
+	border: 2px solid;
+	padding: 1em;
+	margin: 1em;
+
+	text-align: center;
+}
+
+.catalog img {
+	width: 135px;
+	height: 200px;
+	border: 1px solid;
 }

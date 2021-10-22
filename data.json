@@ -1,22 +1,32 @@
 [
 	{
 		"title": "Title 1",
+		"cover": "img/",
+		"alternative": "",
 		"description": "Description 1"
 	},
 	{
 		"title": "Title 2",
+		"cover": "img/",
+		"alternative": "",
 		"description": "Description 2"
 	},
 	{
 		"title": "Title 3",
+		"cover": "img/",
+		"alternative": "",
 		"description": "Description 3"
 	},
 	{
 		"title": "Title 4",
+		"cover": "img/",
+		"alternative": "",
 		"description": "Description 4"
 	},
 	{
 		"title": "Title 5",
+		"cover": "img/",
+		"alternative": "",
 		"description": "Description 5"
 	}
 ]
