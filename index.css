@@ -3,6 +3,10 @@ body{
 	margin: 1em;
 }
 
+.bar {
+	text-align: right;
+}
+
 #container {
 	text-align: center;
 }

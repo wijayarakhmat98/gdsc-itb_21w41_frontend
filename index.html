@@ -2,10 +2,17 @@
 <html lang="en">
 	<head>
 		<title>Webpage</title>
-		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="index.css">
 		<script src="index.js" defer></script>
 	</head>
 	<body>
+		<hr>
+		<div class="bar">
+			<input id="search" type="text" name="search">
+			<input type="button" value="Search" onclick="search()">
+			<input type="button" value="Reset" onclick="reset()">
+		</div>
+		<hr>
 		<div id="container" style="display: none">
 			<div id="template" class="catalog">
 				<a class="action" href="dynamic.html" onclick="" onauxclick="">
@@ -17,5 +24,6 @@
 				<p class="description"></p>
 			</div>
 		</div>
+		<hr>
 	</body>
 </html>
