@@ -1,0 +1,25 @@
+body {
+	padding: 1em;
+	margin: 1em;
+}
+
+img {
+	width: 180px;
+	height: 267px;
+}
+
+.status {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2em;
+}
+
+.title {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 1em;
+}

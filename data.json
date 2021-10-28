@@ -1,32 +1,47 @@
 [
 	{
+		"cover": "img/",
+		"alternative": "",
 		"title": "Title 1",
-		"cover": "img/",
-		"alternative": "",
-		"description": "Description 1"
+		"year": "0000",
+		"rating": "0/0",
+		"description": "Description 1",
+		"synopsis": "Synopsis 1"
 	},
 	{
+		"cover": "img/",
+		"alternative": "",
 		"title": "Title 2",
-		"cover": "img/",
-		"alternative": "",
-		"description": "Description 2"
+		"year": "0000",
+		"rating": "0/0",
+		"description": "Description 2",
+		"synopsis": "Synopsis 2"
 	},
 	{
+		"cover": "img/",
+		"alternative": "",
 		"title": "Title 3",
-		"cover": "img/",
-		"alternative": "",
-		"description": "Description 3"
+		"year": "0000",
+		"rating": "0/0",
+		"description": "Description 3",
+		"synopsis": "Synopsis 3"
 	},
 	{
+		"cover": "img/",
+		"alternative": "",
 		"title": "Title 4",
-		"cover": "img/",
-		"alternative": "",
-		"description": "Description 4"
+		"year": "0000",
+		"rating": "0/0",
+		"description": "Description 4",
+		"synopsis": "Synopsis 4"
 	},
 	{
-		"title": "Title 5",
 		"cover": "img/",
 		"alternative": "",
-		"description": "Description 5"
+		"title": "Title 5",
+		"year": "0000",
+		"rating": "0/0",
+		"description": "Description 5",
+		"synopsis": "Synopsis 5"
 	}
 ]
