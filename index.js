@@ -23,8 +23,6 @@ function render() {
 		let action = catalog.getElementsByClassName("action")[0]
 		let title = catalog.getElementsByClassName("title")[0]
 		let year = catalog.getElementsByClassName("year")[0]
-		let rating = catalog.getElementsByClassName("rating")[0]
-		let description = catalog.getElementsByClassName("description")[0]
 
 		cover.setAttribute("src", movie.cover)
 		cover.innerHTML = movie.alternative
@@ -33,8 +31,6 @@ function render() {
 
 		title.innerHTML = movie.title
 		year.innerHTML = movie.year
-		rating.innerHTML = movie.rating
-		description.innerHTML = movie.description
 
 		container.appendChild(catalog)
 	}

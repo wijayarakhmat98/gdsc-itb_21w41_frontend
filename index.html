@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Webpage</title>
+		<title>Catalogue</title>
 		<link rel="stylesheet" href="index.css">
 		<script src="index.js" defer></script>
 	</head>
-	<body>
+	<body class="border">
 		<hr>
-		<div class="bar">
+		<div class="bar in-set">
 			<input id="search" type="text" name="search">
 			<input type="button" value="Search" onclick="search()">
 			<input type="button" value="Reset" onclick="reset()">
 		</div>
 		<hr>
-		<div id="container" style="display: none">
+		<div id="container" class="in-set" style="display: none">
 			<div id="template" class="catalog">
 				<a class="action" href="dynamic.html" onclick="" onauxclick="">
-					<img class="cover" src=""></img>
+					<div class="frame">
+						<img class="cover" src=""></img>
+					</div>
 				</a>
-				<p class="title"></p>
+				<div class="title-box">
+					<p class="title"></p>
+				</div>
 				<p class="year"></p>
-				<p class="rating"></p>
-				<p class="description"></p>
 			</div>
 		</div>
 		<hr>
