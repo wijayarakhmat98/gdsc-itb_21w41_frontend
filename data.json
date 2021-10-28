@@ -6,7 +6,10 @@
 		"year": "0000",
 		"rating": "0/0",
 		"description": "Description 1",
-		"synopsis": "Synopsis 1"
+		"synopsis": "Synopsis 1",
+		"writers": "Names",
+		"directors": "Names",
+		"actors": "Names"
 	},
 	{
 		"cover": "img/",
@@ -15,7 +18,10 @@
 		"year": "0000",
 		"rating": "0/0",
 		"description": "Description 2",
-		"synopsis": "Synopsis 2"
+		"synopsis": "Synopsis 2",
+		"writers": "Names",
+		"directors": "Names",
+		"actors": "Names"
 	},
 	{
 		"cover": "img/",
@@ -24,7 +30,10 @@
 		"year": "0000",
 		"rating": "0/0",
 		"description": "Description 3",
-		"synopsis": "Synopsis 3"
+		"synopsis": "Synopsis 3",
+		"writers": "Names",
+		"directors": "Names",
+		"actors": "Names"
 	},
 	{
 		"cover": "img/",
@@ -33,7 +42,10 @@
 		"year": "0000",
 		"rating": "0/0",
 		"description": "Description 4",
-		"synopsis": "Synopsis 4"
+		"synopsis": "Synopsis 4",
+		"writers": "Names",
+		"directors": "Names",
+		"actors": "Names"
 	},
 	{
 		"cover": "img/",
@@ -42,6 +54,9 @@
 		"year": "0000",
 		"rating": "0/0",
 		"description": "Description 5",
-		"synopsis": "Synopsis 5"
+		"synopsis": "Synopsis 5",
+		"writers": "Names",
+		"directors": "Names",
+		"actors": "Names"
 	}
 ]

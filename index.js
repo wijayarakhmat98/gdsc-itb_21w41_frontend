@@ -4,14 +4,15 @@ async function get_json(file) {
 	return json
 }
 
+const json = get_json("data.json")
+
 const container = document.getElementById("container")
 const template = document.getElementById("template")
+
 container.removeChild(template)
 template.removeAttribute("id")
 
-get_json("data.json").then((
-	data
-) => {
+json.then((data) => {
 	for (let i = 0; i < data.length; ++i) {
 		let movie = data[i]
 		let catalog = template.cloneNode(true)
@@ -24,8 +25,10 @@ get_json("data.json").then((
 		let description = catalog.getElementsByClassName("description")[0]
 
 		cover.setAttribute("src", movie.cover)
-		cover.innderHTML = movie.alternative
+		cover.innerHTML = movie.alternative
 		action.setAttribute("onclick", "set_data("+i+")")
+		action.setAttribute("onauxclick", "set_new_data("+i+")")
+
 		title.innerHTML = movie.title
 		year.innerHTML = movie.year
 		rating.innerHTML = movie.rating
@@ -33,8 +36,18 @@ get_json("data.json").then((
 
 		container.appendChild(catalog)
 	}
+
+	container.removeAttribute("style")
 })
 
-function set_data(index) {
-	console.log(index)
+function set_data(i) {
+	json.then((data) => {
+		sessionStorage.setItem('data', JSON.stringify(data[i]))
+	})
+}
+
+function set_new_data(i) {
+	json.then((data) => {
+		localStorage.setItem('data', JSON.stringify(data[i]))
+	})
 }
